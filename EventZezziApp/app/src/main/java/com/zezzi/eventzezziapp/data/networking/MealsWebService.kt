@@ -16,6 +16,7 @@ class MealsWebService {
             .build()
 
         api = retrofit.create(MealsApi::class.java)
+
     }
 
     fun getMeals(): Call<MealsCategoriesResponse> {
