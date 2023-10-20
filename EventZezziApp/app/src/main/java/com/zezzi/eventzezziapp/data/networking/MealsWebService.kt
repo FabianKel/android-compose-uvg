@@ -19,7 +19,7 @@ class MealsWebService {
 
     }
 
-    fun getMeals(): Call<MealsCategoriesResponse> {
+    suspend fun getMeals(): MealsCategoriesResponse {
         return api.getMeals()
     }
 }
