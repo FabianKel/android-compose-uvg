@@ -1,4 +1,4 @@
-package com.zezzi.eventzezziapp
+ package com.zezzi.eventzezziapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
